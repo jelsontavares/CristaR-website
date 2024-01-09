@@ -40,6 +40,16 @@
   background-color: #f7dc2e;
 }
 
+/*Content*/
+.curriculum-links {
+  color: black;
+  font-family: "Lato";
+}
+
+.curriculum-links:hover {
+  color: #b247ff;
+}
+
 /*Cards*/
 .card a,
 .card-title {

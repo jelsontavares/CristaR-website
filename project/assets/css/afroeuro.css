@@ -1,85 +1,88 @@
 /*fonts*/
 @font-face {
-    font-family: 'Lato';
-    src: url(../fonts/Lato\ Regular.ttf);
+  font-family: "Lato";
+  src: url(../fonts/Lato\ Regular.ttf);
 }
 @font-face {
-    font-family: 'Roboto Condensed';
-    src: url(../fonts/Roboto\ Condensed\ Regular.ttf);
+  font-family: "Roboto Condensed";
+  src: url(../fonts/Roboto\ Condensed\ Regular.ttf);
 }
-
 
 /*NavBar*/
 .navbar-nav li .nav-link {
-    font-family: 'Roboto Condensed';
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #FFFFFF;
+  font-family: "Roboto Condensed";
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
 }
-.navbar-nav li .nav-link.active{
-    color: #FFFFFF;
-
+.navbar-nav li .nav-link.active {
+  color: #ffffff;
 }
 
 .navbar-nav li .nav-link:hover {
-    border-bottom: 4px solid #F7DC2E;
-    color: #B247FF;
-    background-color: #fff;
-    border-radius: 2px;
+  border-bottom: 4px solid #f7dc2e;
+  color: #b247ff;
+  background-color: #fff;
+  border-radius: 2px;
 }
 
 .nav-item .dropdown-menu {
-    color: #f8f0bd;
+  color: #f8f0bd;
 }
 .dropdown-menu a {
-    font-family: 'Lato';
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: black;
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
 }
 
 .dropdown-menu a:hover {
-    background-color: #F7DC2E;
+  background-color: #f7dc2e;
 }
 
-a, h6, p {
-    text-decoration: none;
-    color: black;
-    font-family: 'Lato';
+a,
+h6,
+p {
+  text-decoration: none;
+  color: black;
+  font-family: "Lato";
 }
 
 p {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
-
 h1 {
-    font-family: 'Lato';   
+  font-family: "Lato";
 }
 
 h1:hover {
-    color: #B247FF;
+  color: #b247ff;
 }
 
-.afro-links a:hover{
-    color: #B247FF;
+.afro-links a {
+  color: #b247ff;
+  font-family: "Lato";
+}
+
+.afro-links a:hover {
+  color: black;
 }
 
 .apoios p {
-    font-size: 0.9rem;
-} 
+  font-size: 0.9rem;
+}
 
 .apoios span {
-    border-left: 3px solid #B247FF;
-    margin-right: 2px;
-    margin-left: 2px;
+  border-left: 3px solid #b247ff;
+  margin-right: 2px;
+  margin-left: 2px;
 }
 
 .footer {
-    background-color: #B247FF;
-    color:white;
-    display: flex;
-    font-family: 'Lato';
-    font-size: 1rem;
+  background-color: #b247ff;
+  color: white;
+  display: flex;
+  font-family: "Lato";
+  font-size: 1rem;
 }
-
