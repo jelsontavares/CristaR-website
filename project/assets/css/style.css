@@ -1,84 +1,78 @@
 /*fonts*/
 @font-face {
-    font-family: 'Lato';
-    src: url(../fonts/Lato\ Regular.ttf);
+  font-family: "Lato";
+  src: url(../fonts/Lato\ Regular.ttf);
 }
 @font-face {
-    font-family: 'Roboto Condensed';
-    src: url(../fonts/Roboto\ Condensed\ Regular.ttf);
+  font-family: "Roboto Condensed";
+  src: url(../fonts/Roboto\ Condensed\ Regular.ttf);
 }
-
 
 /*NavBar*/
 .navbar-nav li .nav-link {
-    font-family: 'Roboto Condensed';
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: #FFFFFF;
+  font-family: "Roboto Condensed";
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
 }
-.navbar-nav li .nav-link.active{
-    color: #FFFFFF;
-
+.navbar-nav li .nav-link.active {
+  color: #ffffff;
 }
 
 .navbar-nav li .nav-link:hover {
-    border-bottom: 4px solid #F7DC2E;
-    color: #B247FF;
-    background-color: #fff;
-    border-radius: 2px;
+  border-bottom: 4px solid #f7dc2e;
+  color: #b247ff;
+  background-color: #fff;
+  border-radius: 2px;
 }
 
 .nav-item .dropdown-menu {
-    color: #f8f0bd;
+  color: #f8f0bd;
 }
 .dropdown-menu a {
-    font-family: 'Lato';
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: black;
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: black;
 }
 
 .dropdown-menu a:hover {
-    background-color: #F7DC2E;
+  background-color: #f7dc2e;
 }
 
 /*Cards*/
-.card a, .card-title {
-    text-decoration: none;
-    color: black;
-    font-family: 'Lato';
-    font-size: 1.2rem;
-    font-weight: 700;
+.card a,
+.card-title {
+  text-decoration: none;
+  color: black;
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .card-title:hover {
-    color: #B247FF;
-    border-bottom: 4px solid #F7DC2E;;
-    display: inline;
+  color: #b247ff;
+  border-bottom: 4px solid #f7dc2e;
+  display: inline;
 }
 
 .card img {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 .card img:hover {
-    box-shadow: 0px 0px 21px 5px rgba(178,71,255,1);
+  box-shadow: 0px 0px 21px 5px rgba(178, 71, 255, 1);
 }
-
-
-
-
 
 /*footer*/
 .footer {
-    background-color: #B247FF;
-    color:white;
-    display: flex;
-    font-family: 'Lato';
-    font-size: 1rem;
+  background-color: #b247ff;
+  color: white;
+  display: flex;
+  font-family: "Lato";
+  font-size: 1rem;
 }
 
 .home-title p {
-    text-align: left;
+  text-align: left;
 }
-
