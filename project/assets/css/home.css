@@ -1,0 +1,139 @@
+/*colors*/
+:root {
+  --primary-color: #b247ff;
+  --secondary-color: #f7dc2e;
+  --third-color: black;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: ;
+  --default-font-family: ;
+}
+
+/*fonts*/
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato\ Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url(../fonts/Roboto\ Condensed\ Regular.ttf);
+}
+
+/*NavBar*/
+.navbar-nav li .nav-link {
+  font-family: "Roboto Condensed";
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.navbar-nav li .nav-link.active {
+  color: #ffffff;
+}
+
+.navbar-nav li .nav-link:hover {
+  border-bottom: 4px solid var(--secondary-color);
+  color: #b247ff;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.nav-item .dropdown-menu {
+  color: #d5bdf8;
+}
+.dropdown-menu a {
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--third-color);
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--secondary-color);
+}
+
+/*text style*/
+
+p {
+  font-family: "Lato";
+}
+
+.curriculum-links {
+  display: flex;
+  margin-top: 3px;
+  justify-content: center;
+  font-family: "Lato";
+}
+
+.curriculum-links a {
+  margin: 0 20px;
+}
+
+.curriculum-links a:hover {
+  text-decoration: underline;
+}
+
+/*opção1
+
+.primary-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+}*/
+
+.primary-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.secondary-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/*Cards*/
+.card a,
+.card-title {
+  text-decoration: none;
+  color: var(--third-color);
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card-title:hover {
+  color: var(--primary-color);
+  border-bottom: 4px solid var(--secondary-color);
+  display: inline;
+}
+
+.card img {
+  border-radius: 5px;
+}
+
+.card img:hover {
+  box-shadow: 0px 0px 21px 5px var(--primary-color);
+}
+
+/*footer*/
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  font-family: "Lato";
+  font-size: 1rem;
+}
+
+.home-title p {
+  text-align: left;
+}

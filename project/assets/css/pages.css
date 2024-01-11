@@ -1,0 +1,164 @@
+/*colors*/
+:root {
+  --primary-color: #b247ff;
+  --secondary-color: #f7dc2e;
+  --third-color: black;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --heading-font-family: ;
+  --default-font-family: ;
+}
+
+/*fonts*/
+@font-face {
+  font-family: "Lato";
+  src: url(../fonts/Lato\ Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url(../fonts/Roboto\ Condensed\ Regular.ttf);
+}
+
+/*NavBar*/
+.navbar-nav li .nav-link {
+  font-family: "Roboto Condensed";
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.navbar-nav li .nav-link.active {
+  color: #ffffff;
+}
+
+.navbar-nav li .nav-link:hover {
+  border-bottom: 4px solid var(--secondary-color);
+  color: var(--primary-color);
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.nav-item .dropdown-menu {
+  color: #f8f0bd;
+}
+.dropdown-menu a {
+  font-family: "Robo Condensed";
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--third-color);
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--secondary-color);
+}
+
+/*Cards*/
+.card a,
+.card-title {
+  text-decoration: none;
+  color: var(--third-color);
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.card-title:hover {
+  color: #b247ff;
+  border-bottom: 4px solid var(--secondary-color);
+  display: inline;
+}
+
+.card img {
+  border-radius: 5px;
+}
+
+.card img:hover {
+  box-shadow: 0px 0px 21px 5px var(--primary-color);
+}
+
+/*footer*/
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  font-family: "Lato";
+  font-size: 1rem;
+}
+
+/*text style*/
+h6 a {
+  text-decoration: none;
+  color: var(--third-color);
+  font-family: "Lato";
+}
+
+h1,
+p {
+  font-family: "Lato";
+}
+h6 a:hover {
+  color: var(--primary-color);
+}
+h1 {
+  border-bottom-width: 100%;
+  text-transform: uppercase;
+}
+
+a {
+  color: var(--primary-color);
+  font-family: "Lato";
+}
+
+a:hover {
+  color: var(--third-color);
+}
+
+/*TRIBUNA*/
+
+.button-tribuna a {
+  color: white;
+  text-decoration: none;
+}
+
+.button-tribuna a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  color: white;
+  border: 1px solid var(--primary-color);
+  background-color: var(--primary-color) !important;
+}
+
+/*PRESENCA*/
+
+.afro-links a {
+  color: white;
+  text-decoration: none;
+  font-family: "Lato";
+}
+
+.afro-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.apoios p {
+  font-size: 0.9rem;
+}
+
+/*JORNAL*/
+
+/*span {
+  font-size: 0.8rem;
+}*/
+
+/*ARTIGOS PUBLICO*/
+
+/*AFROEUROPEAN*/
+
+/*FEMINISMO*/
+
+/*ENTREVISTAS*/
