@@ -8,6 +8,12 @@
   --default-font-family: ;
 }
 
+/*general*/
+body {
+  overflow-x: hidden;
+  max-height: 100vh;
+}
+
 /*fonts*/
 @font-face {
   font-family: "Lato";
@@ -24,6 +30,7 @@
   font-size: 1.4rem;
   font-weight: 700;
   color: #ffffff;
+  border-bottom: 4px solid transparent;
 }
 .navbar-nav li .nav-link.active {
   color: #ffffff;
@@ -40,7 +47,7 @@
   color: #f8f0bd;
 }
 .dropdown-menu a {
-  font-family: "Robo Condensed";
+  font-family: "Lato";
   font-size: 1.2rem;
   font-weight: 500;
   color: var(--third-color);
