@@ -90,30 +90,32 @@ body {
 }
 
 /*text style*/
-h6 a {
-  text-decoration: none;
-  color: var(--third-color);
-  font-family: "Lato";
-}
 
 h1,
 p {
   font-family: "Lato";
-}
-h6 a:hover {
-  color: var(--primary-color);
 }
 h1 {
   border-bottom-width: 100%;
   text-transform: uppercase;
 }
 
-a {
+#article-link {
+  font-size: small;
+  font-weight: lighter;
   color: var(--primary-color);
   font-family: "Lato";
 }
 
-a:hover {
+#article-link:hover {
+  color: var(--third-color);
+}
+
+#curriculum-link {
+  color: var(--primary-color);
+}
+
+#curriculum-link:hover {
   color: var(--third-color);
 }
 

@@ -62,49 +62,13 @@ p {
   font-family: "Lato";
 }
 
-.curriculum-links {
-  display: flex;
-  margin-top: 3px;
-  justify-content: center;
+a {
+  color: var(--primary-color);
   font-family: "Lato";
 }
 
-.curriculum-links a {
-  margin: 0 20px;
-}
-
-.curriculum-links a:hover {
-  text-decoration: underline;
-}
-
-/*opção1
-
-.primary-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-  padding: 12px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  text-transform: capitalize;
-}*/
-
-.primary-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  padding: 12px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.secondary-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-  padding: 12px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  text-transform: capitalize;
+a:hover {
+  color: var(--third-color);
 }
 
 /*Cards*/
