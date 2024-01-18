@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+.bg-light {
+  --bs-bg-opacity: 0 !important;
+}
+
 /*fonts*/
 @font-face {
   font-family: "Lato";
@@ -107,6 +111,9 @@ a:hover {
   display: flex;
   font-family: "Lato";
   font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .home-title p {

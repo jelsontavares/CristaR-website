@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Description de ma page" />
-    <title>Home</title>
+    <title>Feminismo Negro</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="assets/css/pages.css" />
   </head>
   <body>
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0 bg-light">
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg" style="background-color: #b247ff">
         <div class="container-fluid">
@@ -36,13 +36,16 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item mx-3">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
                   >Home</a
                 >
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="artigo_publico.html"
-                  >Artigos Plubico</a
+                <a class="nav-link" href="../artigo_publico.html"
+                  >Artigos Público</a
                 >
               </li>
               <li class="nav-item dropdown mx-3">
@@ -57,44 +60,26 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/project/publicaçoes/tribuna_negra.html"
+                    <a class="dropdown-item" href="tribuna_negra.html"
                       >Tribuna Negra</a
                     >
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/project/publicaçoes/jornal.html"
+                    <a class="dropdown-item" href="jornal.html"
                       >Jornal O Negro: 110 Anos</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/project/publicaçoes/presenca_negra.html"
+                      href="..//publicaçoes/presenca_negra.html"
                       >Setúbal Negra</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/project/publicaçoes/negro_drama.html"
-                      >Negro Drama</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="/project/publicaçoes/miseducation.html"
-                      >The (mis)education in Portugal</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="/project/publicaçoes/outras_pub.html"
+                      href="../publicaçoes/outras_pub.html"
                       >Outras Publicações</a
                     >
                   </li>
@@ -112,15 +97,8 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="/project/artigo_publico.html"
+                    <a class="dropdown-item" href="artigo_publico.html"
                       >Artigos Público</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="/project/media/outros_artigos.html"
-                      >Outros Artigos nos Media</a
                     >
                   </li>
                   <li>
@@ -133,21 +111,21 @@
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/project/media/entrevistas.html"
-                      >Entrevistas e Reportagens</a
+                      href="/project/media/outros_artigos.html"
+                      >Outros Artigos nos Media</a
                     >
                   </li>
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/project/media/outros_medias.html"
-                      >Outros Media</a
+                      href="/project/media/entrevistas.html"
+                      >Entrevistas e Reportagens</a
                     >
                   </li>
                 </ul>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link" href="afroeuropeans.html"
+                <a class="nav-link" href="../afroeuropeans.html"
                   >Afroeuropeans 2019</a
                 >
               </li>
@@ -156,15 +134,68 @@
         </div>
       </nav>
 
-      <!-- Home page content -->
-      <div class="container w-50">
-        <div class="row container-fluid mt-5 text-center">
-          <h1>Feminismo Negro em Portugal</h1>
+      <!-- page content -->
+      <div class="container w-75">
+        <div class="row container-fluid mt-5 text-center title">
+          <h1 class="fw-bold">Feminismo Negro</h1>
+          <p class="fw-bold">em Portugal: falta contar-nos</p>
         </div>
+        <section id="skills" class="py-4 bg-light">
+          <div class="container">
+            <div class="row gy-4 mt-1 align-items-center">
+              <div class="col-12 col-md-4">
+                <a
+                  href="pdf/Feminismo negro em Portugal_ falta contar-nos _ Livros _ PÚBLICO.pdf"
+                  target="_blank"
+                  data-bs-toggle="tooltip"
+                  data-bs-title="PDF"
+                  ><img
+                    src="image/feminismo/VirginiaQuaresma.png"
+                    alt="Presença Negra"
+                    width="90%"
+                /></a>
+              </div>
+              <div class="col-12 offset-md-1 col-md-7">
+                <p class="fw-bold">
+                  Roldão, Cristina (2019), "Feminismo Negro em Portugal: falta
+                  contar-nos", O Público
+                  <a
+                    href="https://www.publico.pt/2019/01/18/culturaipsilon/noticia/feminismo-negro-portugal-falta-contarnos-1857501"
+                    target="_blank"
+                    id="article-link"
+                  >
+                    [link]
+                  </a>
+                </p>
+                <p>
+                  "A actual geração de activistas, que já nasceu em Portugal ou
+                  cá cresceu, coloca novas questões na agenda do movimento negro
+                  feminino em Portugal. Recuamos no tempo... recuamos séculos...
+                  falta contar esta história."
+                </p>
+                <p class="fw-bold">
+                  Feminismo Negro em Portugal: falta contar-nos
+                  <a
+                    href="pdf/Feminismo negro em Portugal_ falta contar-nos _ Livros _ PÚBLICO.pdf"
+                    target="_blank"
+                    id="article-link"
+                  >
+                    [link]
+                  </a>
+                  <br />
+                </p>
+
+                <div class="btn btn-primary button-tribuna mt-3">
+                  <a href="artigo_publico.html">Artigos Público</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
-    <nav class="row">
-      <div class="col d-flex justify-content-center align-items-end p-3 footer">
+    <nav class="row mt-4">
+      <div class="col d-flex justify-content-center align-items-end p-2 footer">
         Todos os direitos reservados! Site dedicado à Cristina Roldão.
       </div>
     </nav>
@@ -174,5 +205,6 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>

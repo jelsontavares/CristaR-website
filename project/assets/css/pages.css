@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
 }
 
+.bg-light {
+  --bs-bg-opacity: 0 !important;
+}
+
 /*fonts*/
 @font-face {
   font-family: "Lato";
@@ -87,6 +91,9 @@ body {
   display: flex;
   font-family: "Lato";
   font-size: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /*text style*/
@@ -135,6 +142,7 @@ h1 {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
+  font-family: "Lato";
   color: white;
   border: 1px solid var(--primary-color);
   background-color: var(--primary-color) !important;
@@ -157,18 +165,6 @@ h1 {
   font-size: 0.9rem;
 }
 
-/*JORNAL*/
-
 /*span {
   font-size: 0.8rem;
 }*/
-
-/*ARTIGOS PUBLICO*/
-
-/*AFROEUROPEAN*/
-
-/*FEMINISMO*/
-
-/*ENTREVISTAS*/
-
-/*OUTRAS PUBLICAÇÕES*/
