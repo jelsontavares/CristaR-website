@@ -28,6 +28,10 @@ body {
 }
 
 /*NavBar*/
+.navbar-background {
+  background-color: var(--primary-color);
+}
+
 .navbar-nav li .nav-link {
   font-family: "Roboto Condensed";
   font-size: 1.4rem;
@@ -37,13 +41,22 @@ body {
 }
 .navbar-nav li .nav-link.active {
   color: #ffffff;
+  border-bottom: 4px solid var(--secondary-color);
 }
 
 .navbar-nav li .nav-link:hover {
   border-bottom: 4px solid var(--secondary-color);
-  color: #b247ff;
+  color: var(--primary-color);
   background-color: #fff;
   border-radius: 2px;
+}
+
+.show {
+  color: white !important;
+}
+
+.show:hover {
+  color: var(--primary-color) !important;
 }
 
 .nav-item .dropdown-menu {
