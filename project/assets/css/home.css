@@ -11,6 +11,7 @@
 /*general*/
 body {
   overflow-x: hidden;
+
 }
 
 .bg-light {
@@ -118,6 +119,11 @@ a:hover {
 }
 
 /*footer*/
+/*alteração footer*/
+.footer1 {
+  --bs-gutter-x: 0;
+}
+
 .footer {
   background-color: var(--primary-color);
   color: white;

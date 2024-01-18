@@ -98,6 +98,11 @@ body {
 }
 
 /*footer*/
+/*alteração footer*/
+.footer1 {
+  --bs-gutter-x: 0;
+}
+
 .footer {
   background-color: var(--primary-color);
   color: white;
