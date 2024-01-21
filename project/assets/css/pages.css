@@ -207,3 +207,20 @@ h1 {
 /*span {
   font-size: 0.8rem;
 }*/
+
+
+/**Artigos publico*/
+
+.description p {
+  font-family: "Lato";
+}
+
+.description a {
+  color: var(--primary-color);
+  font-family: "Lato";
+}
+
+.description a:hover {
+  color: var(--third-color);
+}
+
