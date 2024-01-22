@@ -3,6 +3,7 @@
   --primary-color: #b247ff;
   --secondary-color: #f7dc2e;
   --third-color: black;
+  --forth-color: #b247ff58;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: ;
   --default-font-family: ;
@@ -11,7 +12,6 @@
 /*general*/
 body {
   overflow-x: hidden;
-
 }
 
 .bg-light {
@@ -115,9 +115,9 @@ a:hover {
 }
 
 .card img:hover {
-  box-shadow: 0px 0px 21px 5px var(--primary-color);
+  filter: sepia(10%);
+  transform: scale(1.05);
 }
-
 /*footer*/
 /*alteração footer*/
 .footer1 {

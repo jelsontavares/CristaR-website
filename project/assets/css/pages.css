@@ -208,7 +208,6 @@ h1 {
   font-size: 0.8rem;
 }*/
 
-
 /**Artigos publico*/
 
 .description p {
@@ -223,4 +222,3 @@ h1 {
 .description a:hover {
   color: var(--third-color);
 }
-
