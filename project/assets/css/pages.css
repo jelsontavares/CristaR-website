@@ -198,6 +198,11 @@ h1 {
   margin-left: 40px;
 }
 
+#subtitle-musicos {
+  padding-left: 40px;
+  font-size: 10px;
+}
+
 /*JORNAL*/
 
 .image-jornal {
