@@ -107,8 +107,6 @@ body {
   color: var(--third-color);
 }
 
-
-
 /*footer*/
 /*alteração footer*/
 .footer1 {
@@ -238,4 +236,12 @@ h1 {
 
 .description a:hover {
   color: var(--third-color);
+}
+
+p {
+  text-align: justify;
+}
+
+#sub-title {
+  font-family: "Lato";
 }
