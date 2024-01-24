@@ -114,8 +114,12 @@ a:hover {
   border: none;
 }
 
+.img-jornal {
+  box-shadow: 0px 0px 1px 0px;
+  border: none;
+}
+
 .card img:hover {
-  filter: sepia(10%);
   transform: scale(1.05);
 }
 /*footer*/
