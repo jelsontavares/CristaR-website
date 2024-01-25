@@ -213,6 +213,12 @@ h1 {
   font-size: 10px;
 }
 
+/*FEMINISMO*/
+
+#subtitle-virginia {
+  font-size: 10px;
+}
+
 /*JORNAL*/
 
 .image-jornal {
@@ -243,5 +249,14 @@ p {
 }
 
 #sub-title {
+  font-family: "Lato";
+}
+
+/*ENTREVISTAS*/
+
+#interview-link {
+  font-size: small;
+  font-weight: 100;
+  color: var(--primary-color);
   font-family: "Lato";
 }
