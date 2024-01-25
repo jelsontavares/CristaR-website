@@ -260,3 +260,21 @@ p {
   color: var(--primary-color);
   font-family: "Lato";
 }
+
+@media (max-width: 900px) {
+  #subtitle-virginia {
+    font-size: 9px;
+  }
+  #subtitle-musicos {
+    font-size: 9px;
+  }
+  .subtitle-photos {
+    font-size: 9px;
+  }
+  .afro-links a {
+    font-size: 11px;
+  }
+  .footer {
+    font-size: 9px;
+  }
+}
