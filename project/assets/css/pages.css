@@ -262,8 +262,12 @@ p {
 }
 
 @media (max-width: 900px) {
+  /*feminismo*/
   #subtitle-virginia {
     font-size: 9px;
+  }
+  #btn-artigos {
+    margin-bottom: 30px;
   }
   #subtitle-musicos {
     font-size: 9px;
