@@ -193,7 +193,7 @@ fetch('https://blog-cristinar.onrender.com/api/post-outros-medias')
 
 
 // fetch relatorios
-fetch('https://blog-cristinar.onrender.com/api/post-outras-relatorios')
+fetch('https://blog-cristinar.onrender.com/api/post-outros-relatorios')
   .then(response => response.json())
   .then(data => {
     // Check if data has the 'data' key and if it is an array
