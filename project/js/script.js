@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // fecth from Livros  
-fetch('http://localhost:1337/api/post-outros-livros')
+fetch('https://blog-cristinar.onrender.com/api/post-outros-livros')
   .then(response => response.json())
   .then(data => {
     // Check if data has the 'data' key and if it is an array
@@ -101,7 +101,7 @@ fetch('http://localhost:1337/api/post-outros-livros')
 
 // fetch from capitulos de livros
 
-fetch('http://localhost:1337/api/post-outras-capitulos')
+fetch('https://blog-cristinar.onrender.com/api/post-outros-capitulos')
   .then(response => response.json())
   .then(data => {
     // Check if data has the 'data' key and if it is an array
@@ -131,7 +131,7 @@ fetch('http://localhost:1337/api/post-outras-capitulos')
   .catch(error => console.error('Error fetching Capitulos data:', error));
 
 // fetch from publicações cientificas
-fetch('http://localhost:1337/api/post-outras-art-cientificos')
+fetch('https://blog-cristinar.onrender.com/api/post-outros-art-cientificos')
   .then(response => response.json())
   .then(data => {
     // Check if data has the 'data' key and if it is an array
@@ -162,7 +162,7 @@ fetch('http://localhost:1337/api/post-outras-art-cientificos')
 
 
 // fetch atifos noutros media
-fetch('http://localhost:1337/api/post-outras-medias')
+fetch('https://blog-cristinar.onrender.com/api/post-outros-medias')
 .then(response => response.json())
 .then(data => {
   // Check if data has the 'data' key and if it is an array
@@ -193,7 +193,7 @@ fetch('http://localhost:1337/api/post-outras-medias')
 
 
 // fetch relatorios
-fetch('http://localhost:1337/api/post-outras-relatorios')
+fetch('https://blog-cristinar.onrender.com/api/post-outras-relatorios')
   .then(response => response.json())
   .then(data => {
     // Check if data has the 'data' key and if it is an array
@@ -224,7 +224,7 @@ fetch('http://localhost:1337/api/post-outras-relatorios')
 
 
 //mfetch entrevistas 
-fetch('http://localhost:1337/api/post-entrevistas')
+fetch('https://blog-cristinar.onrender.com/api/post-entrevistas')
   .then(response => response.json())
   .then(data => {
     // Check if data has the 'data' key and if it is an array
@@ -270,7 +270,7 @@ fetch('http://localhost:1337/api/post-entrevistas')
 
 
 // fetch tribuna nos medias
-fetch('http://localhost:1337/api/post-tribuna-medias')
+fetch('https://blog-cristinar.onrender.com/api/post-tribuna-medias')
   .then(response => response.json())
   .then(data => {
     // Check if data has the 'data' key and if it is an array
