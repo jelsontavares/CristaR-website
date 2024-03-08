@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
 //Artigos publicos
 
-  fetch('http://localhost:1337/api/posts')
+  fetch('https://blog-cristinar.onrender.com/api/post-publicos')
   .then(response => response.json())
   .then(data => {
     const posts = data.data;
@@ -38,12 +38,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const card = document.createElement('div');
         card.classList.add('col', 'card-artigo');
 
+        const descriptionText = post.attributes.description[0]?.children[0]?.text || '';
+
         card.innerHTML = `
           <div class="card border-0">
             <div class="card-body">
               <p class="card-text">${post.attributes.date}</p>
               <h5 class="card-title">${post.attributes.title}</h5>
-              <p class="card-text">${post.attributes.description}</p>
+              <p class="card-text">${descriptionText}</p>
               <a href="${post.attributes.link}" class="card-link" target="_blank">Ler Artigo</a>
               <a href="${post.attributes.pdfLink}" class="card-link" target="_blank">PDF</a>
             </div>
