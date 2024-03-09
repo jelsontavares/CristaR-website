@@ -204,7 +204,16 @@ h1 {
 /*FEMINISMO*/
 
 #subtitle-virginia {
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.button-feminismo a {
+  color: #b247ff;
+  font-family: 'Lato';
+}
+
+.button-feminismo a:hover {
+  color: var(--third-color);
 }
 
 /*JORNAL*/
